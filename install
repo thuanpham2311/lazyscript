@@ -1,0 +1,14 @@
+#!/bin/bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm -rf google-chrome-stable_current_amd64.deb
+sudo apt-get upgrade -y
+sudo apt-get autoremove -y
+sudo apt-get autoclean
+sudo apt-get clean
+sudo apt-get install neovim tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot vifm audacity python3-pip tldr simplescreenrecorder -y
+sudo snap install --edge olive-editor
+git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
+cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
+mkdir git
+
