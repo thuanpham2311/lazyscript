@@ -11,6 +11,10 @@ sudo apt-get clean
 
 sudo apt-get install ttf-mscorefonts-installer neovim tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot vifm audacity python3-pip python-pip tldr simplescreenrecorder net-tools npm nodejs nmap whois cmus bucklespring libreoffice gconftool audacity -y
 
+chsh -s "$(which fish)"
+
+ssh-keygen
+
 ibus restart
 
 sudo snap install wps-office
@@ -19,15 +23,36 @@ sudo snap install --edge olive-editor
 git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
 cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
 
-mkdir git
+echo "
+[user]
+	name = nicholas
+	email = nicholaspham2311@gmail.com
+" > ~/.gitconfig
+mkdir git ; cd ~/git/
+git clone git@github.com:nicholaspham2311/dotfiles-termux.git
+git clone git@github.com:nicholaspham2311/dotfiles.git
+git clone git@github.com:nicholaspham2311/pomodoro.git
+git clone git@github.com:nicholaspham2311/mywebsite.git
+git clone git@github.com:nicholaspham2311/study.git
+cd
 
-chsh -s "$(which fish)"
-
+mkdir ~/.config/nvim/; cp ~/git/dotfiles/nvim/init.vim ~/.config/nvim/
+cp ~/git/dotfiles/vim/.vimrc ~/
+cp ~/git/dotfiles/ssh/config ~/.ssh/
+cp ~/git/dotfiles/bash/.bashrc ~/
+cp ~/git/dotfiles/tmux/.tmux.conf ~/
+cp ~/git/dotfiles/fish/config.fish ~/.config/fish/
+cp ~/git/dotfiles/git/.gitconfig ~/ 
 
 git clone https://github.com/aaron-williamson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal
 cd .config/base16-gnome-terminal/
 cd color-scripts/
-bash base16-default-dark-256.sh 
+bash .config/base16-gnome-terminal/color-scripts/base16-default-dark-256.sh 
+bash .config/base16-gnome-terminal/color-scripts/base16-solarized-dark-256.sh
 
 curl -sL install-node.now.sh/lts | bash
 pip install python-language-server
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
