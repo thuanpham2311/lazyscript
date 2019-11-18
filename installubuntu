@@ -1,14 +1,33 @@
 #!/bin/bash
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm -rf google-chrome-stable_current_amd64.deb
+
 sudo apt-get upgrade -y
 sudo apt-get autoremove -y
 sudo apt-get autoclean
 sudo apt-get clean
-sudo apt-get install neovim tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot vifm audacity python3-pip python-pip tldr simplescreenrecorder net-tools npm nodejs nmap whois cmus bucklespring libreoffice ttf-mscorefonts-installer -y
+
+sudo apt-get install ttf-mscorefonts-installer neovim tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot vifm audacity python3-pip python-pip tldr simplescreenrecorder net-tools npm nodejs nmap whois cmus bucklespring libreoffice gconftool audacity -y
+
+ibus restart
+
+sudo snap install wps-office
 sudo snap install --edge olive-editor
+
 git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
 cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
+
 mkdir git
 
+chsh -s "$(which fish)"
+
+
+git clone https://github.com/aaron-williamson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal
+cd .config/base16-gnome-terminal/
+cd color-scripts/
+bash base16-default-dark-256.sh 
+
+curl -sL install-node.now.sh/lts | bash
+pip install python-language-server
