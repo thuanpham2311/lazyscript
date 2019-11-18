@@ -9,7 +9,7 @@ sudo apt-get autoremove -y
 sudo apt-get autoclean
 sudo apt-get clean
 
-sudo apt-get install ttf-mscorefonts-installer neovim tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot vifm audacity python3-pip python-pip tldr simplescreenrecorder net-tools npm nodejs nmap whois cmus bucklespring libreoffice gconftool audacity -y
+sudo apt-get install ttf-mscorefonts-installer neovim tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot vifm audacity python3-pip python-pip tldr simplescreenrecorder net-tools npm nodejs nmap whois cmus bucklespring libreoffice gconftool audacity gimp -y
 
 chsh -s "$(which fish)"
 
