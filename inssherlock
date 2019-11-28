@@ -1,0 +1,3 @@
+#!/bin/bash
+git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
+cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
