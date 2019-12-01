@@ -17,9 +17,6 @@ ssh-keygen
 
 ibus restart
 
-sudo snap install wps-office
-sudo snap install --edge olive-editor
-
 git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
 cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
 
