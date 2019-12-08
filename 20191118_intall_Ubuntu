@@ -47,9 +47,6 @@ cd color-scripts/
 bash .config/base16-gnome-terminal/color-scripts/base16-default-dark-256.sh 
 bash .config/base16-gnome-terminal/color-scripts/base16-solarized-dark-256.sh
 
-curl -sL install-node.now.sh/lts | bash
-pip install python-language-server
-
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
