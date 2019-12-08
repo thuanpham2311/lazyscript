@@ -1,6 +1,5 @@
 pactl set-card-profile 0 output:hdmi-stereo
 gnome-terminal
-google-chrome --new-window
 
 sudo snap refresh
 sudo apt-get update
