@@ -1,4 +1,3 @@
-pactl set-card-profile 0 output:hdmi-stereo
 gnome-terminal
 
 sudo snap refresh
@@ -10,6 +9,7 @@ sudo apt-get clean
 nvim -c "PlugUpdate | qa"
 notify-send -i ~/git/lazyscript/icon/update.png "fresh"
 
+pactl set-card-profile 0 output:hdmi-stereo
 
 cd ~/tools/hacking/sherlock/ ; git pull
 cd ~/git/dotfiles ; git pull
