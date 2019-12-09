@@ -1,6 +1,5 @@
 gnome-terminal
 
-sudo snap refresh
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get autoremove -y
@@ -42,5 +41,4 @@ git push
 cd ~/git/lazyscript ; git add -A
 git commit -m "$(curl -s whatthecommit.com/index.txt)"
 git push
-
 notify-send -i ~/git/lazyscript/icon/github.png "fresh"
