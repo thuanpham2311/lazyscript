@@ -10,6 +10,7 @@ git clone git@github.com:nicholaspham2311/dotfiles.git
 git clone git@github.com:nicholaspham2311/pomodoro.git
 git clone git@github.com:nicholaspham2311/mywebsite.git
 git clone git@github.com:nicholaspham2311/study.git
+git clone git@github.com:nicholaspham2311/lazyscript.git
 cd
 
 mkdir ~/.config/nvim/; cp ~/git/dotfiles/nvim/init.vim ~/.config/nvim/
