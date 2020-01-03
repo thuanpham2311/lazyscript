@@ -22,6 +22,7 @@ cp ~/git/dotfiles/ssh/config ~/.ssh/
 cp ~/git/dotfiles/tmux/.tmux.conf ~/
 cp ~/git/dotfiles/fish/config.fish ~/.config/fish/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
+cp ~/git/dotfiles/ranger/* ~/.config/ranger
 
 git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
 cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
