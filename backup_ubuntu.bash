@@ -12,9 +12,10 @@ rm -rf google-chrome-stable_current_amd64.deb
 # Python setup
 sudo apt-get install -y python3-pandas
 sudo apt-get install python3-matplotlib
-pip3 install notebook
-pip3 install pylint
-pip3 install numpy
+sudo pip install csvkit
+sudo pip3 install notebook
+sudo pip3 install pylint
+sudo pip3 install numpy
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
