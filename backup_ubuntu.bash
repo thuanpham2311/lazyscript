@@ -17,6 +17,7 @@ sudo pip install csvkit
 sudo pip3 install notebook
 sudo pip3 install pylint
 sudo pip3 install numpy
+sudo pip install opencv-python
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
