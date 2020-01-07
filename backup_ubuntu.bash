@@ -12,6 +12,7 @@ rm -rf google-chrome-stable_current_amd64.deb
 # Python setup
 sudo apt-get install -y python3-pandas
 sudo apt-get install python3-matplotlib
+sudo apt-get install python3-pygame
 sudo pip install csvkit
 sudo pip3 install notebook
 sudo pip3 install pylint
