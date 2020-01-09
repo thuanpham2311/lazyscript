@@ -26,3 +26,6 @@ nvim +{PlugInstall}
 
 chsh -s "$(which fish)"
 ssh-keygen
+echo "
+hide top bar extension
+"
