@@ -21,6 +21,7 @@ cp ~/git/dotfiles/vim/.vimrc ~/
 cp ~/git/dotfiles/ssh/config ~/.ssh/
 cp ~/git/dotfiles/tmux/.tmux.conf ~/
 cp ~/git/dotfiles/fish/config.fish ~/.config/fish/
+cp ~/git/dotfiles/fish/fish_prompt.fish ~/.config/fish/functions
 cp ~/git/dotfiles/git/.gitconfig ~/ 
 cp ~/git/dotfiles/ranger/* ~/.config/ranger
 cp ~/git/dotfiles/.selected_editor ~/
