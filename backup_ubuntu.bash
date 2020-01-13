@@ -1,6 +1,6 @@
 #!/bin/bash
 # necessary
-sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot audacity python3-pip python-pip tldr simplescreenrecorder net-tools npm nodejs nmap whois bucklespring libreoffice gconftool audacity gimp preload olive-editor transmission krita xclip speedtest-cli mysql-server neovim -y
+sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fortune fish neofetch htop mpv gnome-tweaks cowsay trash-cli openssh-client openssh-server ibus-unikey flameshot audacity python3-pip python-pip tldr simplescreenrecorder net-tools npm nodejs nmap whois bucklespring libreoffice gconftool audacity gimp preload olive-editor transmission krita xclip speedtest-cli mysql-server neovim fdfind -y
 ibus restart
 
 # chrome
