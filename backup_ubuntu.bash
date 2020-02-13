@@ -1,7 +1,13 @@
 #!/bin/bash
 # necessary
 sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server ibus-unikey flameshot python3-pip python-pip tldr net-tools libreoffice preload krita xclip speedtest-cli mysql-server neovim fd-find aria2c tree -y
+
+## C/C++/Objective-C language server
+sudo apt-get install ccls
+
+## git ...
 sudo snap innstall grv
+
 ibus restart
 
 # chrome
@@ -23,7 +29,9 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 nvim +{PlugInstall}
 
 chsh -s "$(which fish)"
-ssh-keygen
+
 echo "
 hide top bar extension
 "
+
+ssh-keygen
