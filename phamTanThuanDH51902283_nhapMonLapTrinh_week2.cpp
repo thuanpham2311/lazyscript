@@ -4,7 +4,7 @@
 **/
 // README:
 // # See the latest update at:
-// https://github.com/nicholaspham2311/lazyscript/blob/master/phamTanThuanDH51902283nhapMonLapTrinh_week2.cpp
+// https://github.com/nicholaspham2311/lazyscript/blob/master/phamTanThuanDH51902283_nhapMonLapTrinh_week2.cpp
 //
 //
 // NOTE:
