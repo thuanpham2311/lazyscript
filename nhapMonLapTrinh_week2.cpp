@@ -84,7 +84,6 @@ void ex2() {
 void ex3() {
 	float math, phy, chem;
 
-
 	cout << "Enter your score math, phy and chem" << endl;
 	cout << "math = ";
 	cin >> math;
