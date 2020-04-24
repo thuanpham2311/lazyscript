@@ -34,13 +34,16 @@
 // TODO:
 // [x] ex1
 // [x] ex2
+//	  [] produceName input a string?
 // [x] ex3
+//	  [] round num?
 // [x] ex4
 // [x] ex5
 // [x] ex6
-// [] ex7
+// [x] ex7
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 void ex1() {
@@ -59,14 +62,16 @@ void ex1() {
 }
 
 void ex2() {
-	string productName;
+	char productName[100];
 	int amount, price, money, tax;
 
 	cout << "Enter product name: ";
-	getline(cin, productName);
-	cout << "how many?" << "\n \t = ";
+	cin >> productName;
+	cout << productName << endl;
+	cout << "how many?" << "\n = ";
 	cin >> amount;
-	cout << "how much? ($)" "\n \t = ";
+	cout << productName << endl;
+	cout << "how much? ($)" "\n = ";
 	cin >> price;
 
 	money = amount * price; 
@@ -77,7 +82,7 @@ void ex2() {
 }
 
 void ex3() {
-	int math, phy, chem;
+	float math, phy, chem;
 
 
 	cout << "Enter your score math, phy and chem" << endl;
@@ -144,7 +149,8 @@ void ex6() {
 }
 
 void ex7() {
-	int a, b, c, x_1, x_2;
+	int a, b, c;
+	float x_1, x_2;
 	// https://en.wikipedia.org/wiki/Quadratic_equation
 
 	cout << "ax^2 + bx + c = 0" << endl;
@@ -159,12 +165,13 @@ void ex7() {
 		cout << "Don't enter number 0 dude" << endl;
 		cout << "Run this program again" << endl;
 	}else {
-		x = -b / a;
-		cout << "x_1 is " << x << endl;
-		cout << "x_2 is "
+		x_1 = ( -b + sqrt( b*b - 4*a*c ) ) / ( 2*a );
+		x_2 = ( -b - sqrt( b*b - 4*a*c ) ) / ( 2*a );
+		cout << "x_1 is " << x_1 << endl;
+		cout << "x_2 is " << x_2 << endl;
 	}
 }
-}
+
 
 int main() {
 
@@ -177,19 +184,26 @@ int main() {
 	cout <<   "         ||----w |"     << endl;
 	cout <<   "         ||     ||"     << endl;
 
-	// cout << "bai tap 1" << endl;
-	// ex1();
-	// cout << "bai tap 2" << endl;
-	// ex2();
-	// cout << "bai tap 3" << endl;
-	// ex3();
-	// cout << "bai tap 4" << endl;
-	// ex4();
-	// cout << "bai tap 5" << endl;
-	// ex5();
-	// cout << "bai tap 6" << endl;
-	// ex6();
-	cout << "bai tap 7" << endl;
+	cout << "\n\n Exercise 1" << endl;
+	ex1();
+
+	cout << "\n\n Exercise 2" << endl;
+	ex2();
+
+	cout << "\n\n Exercise 3" << endl;
+	ex3();
+
+	cout << "\n\n Exercise 4" << endl;
+	ex4();
+
+	cout << "\n\n Exercise 5" << endl;
+	ex5();
+
+	cout << "\n\n Exercise 6" << endl;
+	ex6();
+
+	cout << "\n\n Exercise 7" << endl;
 	ex7();
+
 	return 0;
 }
