@@ -21,9 +21,9 @@
 // [ ] ex2
 // 		[x] ex2.a
 // -= 1 += 1 to X
-// 		[ ] ex2.b
+// 		[x] ex2.b
 // eg. x = 10, 1=>10 = 10bit.
-// [ ] ex3
+// [x] ex3
 // ??? cin x, y? solve = x**Y(python) cpp?
 
 #include <iostream>
