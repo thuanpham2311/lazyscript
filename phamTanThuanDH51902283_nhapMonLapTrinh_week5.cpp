@@ -13,7 +13,7 @@
 // TODO:
 // [x] ex1
 // [x] ex2
-// [] ex3
+// [x] ex3
 
 #include <iostream>
 using namespace std;
