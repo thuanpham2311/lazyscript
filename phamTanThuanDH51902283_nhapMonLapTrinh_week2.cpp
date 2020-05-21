@@ -47,7 +47,7 @@
 using namespace std;
 
 void ex1() {
-	int a, b;
+    int a, b;
 
 	cout << "Enter a, b" << endl;
 	cout << "a = ";
