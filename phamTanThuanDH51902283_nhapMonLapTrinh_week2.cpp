@@ -34,9 +34,9 @@
 // TODO:
 // [x] ex1
 // [x] ex2
-//	  [] produceName input a string?
+//    [] produceName input a string?
 // [x] ex3
-//	  [] round num?
+//    [] round num?
 // [x] ex4
 // [x] ex5
 // [x] ex6
@@ -49,160 +49,160 @@ using namespace std;
 void ex1() {
     int a, b;
 
-	cout << "Enter a, b" << endl;
-	cout << "a = ";
-	cin >> a;
-	cout << "b = ";
-	cin >> b;
+    cout << "Enter a, b" << endl;
+    cout << "a = ";
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
 
-	cout << "a + b = " << a + b << endl;
-	cout << "a - b = " << a - b << endl;
-	cout << "a * b = " << a * b << endl;
-	cout << "a / b = " << a / b << endl;
+    cout << "a + b = " << a + b << endl;
+    cout << "a - b = " << a - b << endl;
+    cout << "a * b = " << a * b << endl;
+    cout << "a / b = " << a / b << endl;
 }
 
 void ex2() {
-	char productName[100];
-	int amount, price, money, tax;
+    char productName[100];
+    int amount, price, money, tax;
 
-	cout << "Enter product name: ";
-	cin >> productName;
-	cout << productName << endl;
-	cout << "how many?" << "\n = ";
-	cin >> amount;
-	cout << productName << endl;
-	cout << "how much? ($)" "\n = ";
-	cin >> price;
+    cout << "Enter product name: ";
+    cin >> productName;
+    cout << productName << endl;
+    cout << "how many?" << "\n = ";
+    cin >> amount;
+    cout << productName << endl;
+    cout << "how much? ($)" "\n = ";
+    cin >> price;
 
-	money = amount * price; 
-	cout << "money = " << money << "$" << endl;
+    money = amount * price; 
+    cout << "money = " << money << "$" << endl;
 
-	tax = 0.1 * money;
-	cout << "tax (10%) = " << tax << "$" << endl;
+    tax = 0.1 * money;
+    cout << "tax (10%) = " << tax << "$" << endl;
 }
 
 void ex3() {
-	float math, phy, chem;
+    float math, phy, chem;
 
-	cout << "Enter your score math, phy and chem" << endl;
-	cout << "math = ";
-	cin >> math;
-	cout << "phy = ";
-	cin >> phy;
-	cout << "chem = ";
-	cin >> chem;
+    cout << "Enter your score math, phy and chem" << endl;
+    cout << "math = ";
+    cin >> math;
+    cout << "phy = ";
+    cin >> phy;
+    cout << "chem = ";
+    cin >> chem;
 
-	cout << "adv = " << ( math + phy + chem ) / 3 << endl;
+    cout << "adv = " << ( math + phy + chem ) / 3 << endl;
 }
 
 void ex4() {
-	int R, PI, area, circumference;
-	// C = 2*pi*r
-	// A = pi*r**2
-	
-	PI = 3.14159265359;
-	
-	cout << "Radius = ";
-	cin >> R;
+    int R, PI, area, circumference;
+    // C = 2*pi*r
+    // A = pi*r**2
 
-	area = PI * R * R;
-	cout << "Area is " << area << endl;
+    PI = 3.14159265359;
 
-	circumference = 2 * PI * R;
-	cout << "Circumference  is " << circumference << endl;
+    cout << "Radius = ";
+    cin >> R;
+
+    area = PI * R * R;
+    cout << "Area is " << area << endl;
+
+    circumference = 2 * PI * R;
+    cout << "Circumference  is " << circumference << endl;
 }
 
 void ex5() {
-	int carNumber, num_1, num_2, num_3, num_4, result;
+    int carNumber, num_1, num_2, num_3, num_4, result;
 
-	cout << "Enter your car number (just 4 number) \n \t Car number = ";
-	cin >> carNumber;
+    cout << "Enter your car number (just 4 number) \n \t Car number = ";
+    cin >> carNumber;
 
-	num_1 = carNumber    %  10;
-	num_2 = carNumber/10  %  10;
-	num_3 = carNumber/100  %  10;
-	num_4 = carNumber/1000  %  10;
+    num_1 = carNumber    %  10;
+    num_2 = carNumber/10  %  10;
+    num_3 = carNumber/100  %  10;
+    num_4 = carNumber/1000  %  10;
 
-	result = num_1 + num_2 + num_3 + num_4;
+    result = num_1 + num_2 + num_3 + num_4;
 
-	cout << "Sum each your number is " << result << endl;
+    cout << "Sum each your number is " << result << endl;
 }
 
 void ex6() {
-	int a, b, x;
-	// ax + b = 0 => x = -b / a
-	
-	cout << "ax + b = 0" << endl;
-	cout << "a = ";
-	cin >> a;
-	cout << "b = ";
-	cin >> b;
+    int a, b, x;
+    // ax + b = 0 => x = -b / a
 
-	if (a == 0) {
-		cout << "Don't enter number 0 dude" << endl;
-		cout << "Run this program again" << endl;
-	}else {
-		x = -b / a;
-		cout << "x is " << x << endl;
-	}
+    cout << "ax + b = 0" << endl;
+    cout << "a = ";
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
+
+    if (a == 0) {
+        cout << "Don't enter number 0 dude" << endl;
+        cout << "Run this program again" << endl;
+    }else {
+        x = -b / a;
+        cout << "x is " << x << endl;
+    }
 }
 
 void ex7() {
-	int a, b, c;
-	float x_1, x_2;
-	// https://en.wikipedia.org/wiki/Quadratic_equation
+    int a, b, c;
+    float x_1, x_2;
+    // https://en.wikipedia.org/wiki/Quadratic_equation
 
-	cout << "ax^2 + bx + c = 0" << endl;
-	cout << "a = ";
-	cin >> a;
-	cout << "b = ";
-	cin >> b;
-	cout << "c = ";
-	cin >> c;
+    cout << "ax^2 + bx + c = 0" << endl;
+    cout << "a = ";
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
+    cout << "c = ";
+    cin >> c;
 
-	if (a == 0) {
-		cout << "Don't enter number 0 dude" << endl;
-		cout << "Run this program again" << endl;
-	}else {
-		x_1 = ( -b + sqrt( b*b - 4*a*c ) ) / ( 2*a );
-		x_2 = ( -b - sqrt( b*b - 4*a*c ) ) / ( 2*a );
-		cout << "x_1 is " << x_1 << endl;
-		cout << "x_2 is " << x_2 << endl;
-	}
+    if (a == 0) {
+        cout << "Don't enter number 0 dude" << endl;
+        cout << "Run this program again" << endl;
+    }else {
+        x_1 = ( -b + sqrt( b*b - 4*a*c ) ) / ( 2*a );
+        x_2 = ( -b - sqrt( b*b - 4*a*c ) ) / ( 2*a );
+        cout << "x_1 is " << x_1 << endl;
+        cout << "x_2 is " << x_2 << endl;
+    }
 }
 
 
 int main() {
 
-	cout <<   "_____________"          << endl;
-	cout <<   "< Yo! dudes >"          << endl;
-	cout <<   "-------------"          << endl;
-	cout <<   "  |  ^__^"              << endl;
-	cout <<   "   - (oo)|_______  #"   << endl;
-	cout <<   "     (__)|       )/"    << endl;
-	cout <<   "         ||----w |"     << endl;
-	cout <<   "         ||     ||"     << endl;
+    cout <<   "_____________"          << endl;
+    cout <<   "< Yo! dudes >"          << endl;
+    cout <<   "-------------"          << endl;
+    cout <<   "  |  ^__^"              << endl;
+    cout <<   "   - (oo)|_______  #"   << endl;
+    cout <<   "     (__)|       )/"    << endl;
+    cout <<   "         ||----w |"     << endl;
+    cout <<   "         ||     ||"     << endl;
 
-	cout << "\n\n Exercise 1" << endl;
-	ex1();
+    cout << "\n\n Exercise 1" << endl;
+    ex1();
 
-	cout << "\n\n Exercise 2" << endl;
-	ex2();
+    cout << "\n\n Exercise 2" << endl;
+    ex2();
 
-	cout << "\n\n Exercise 3" << endl;
-	ex3();
+    cout << "\n\n Exercise 3" << endl;
+    ex3();
 
-	cout << "\n\n Exercise 4" << endl;
-	ex4();
+    cout << "\n\n Exercise 4" << endl;
+    ex4();
 
-	cout << "\n\n Exercise 5" << endl;
-	ex5();
+    cout << "\n\n Exercise 5" << endl;
+    ex5();
 
-	cout << "\n\n Exercise 6" << endl;
-	ex6();
+    cout << "\n\n Exercise 6" << endl;
+    ex6();
 
-	cout << "\n\n Exercise 7" << endl;
-	ex7();
+    cout << "\n\n Exercise 7" << endl;
+    ex7();
 
-	return 0;
+    return 0;
 }

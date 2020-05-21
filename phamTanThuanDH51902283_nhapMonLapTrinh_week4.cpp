@@ -20,115 +20,115 @@
 using namespace std;
 
 void ex1() {
-	int n, r, sum = 0;
+    int n, r, sum = 0;
 
-	cout << "Enter Your number" << endl;
-	cout << "\t = ";
-	cin >> n;
+    cout << "Enter Your number" << endl;
+    cout << "\t = ";
+    cin >> n;
 
-	for ( ;n > 0; ) {
-		r = n % 10;
-		sum += r;
-		n /= 10;
-	}
+    for ( ;n > 0; ) {
+        r = n % 10;
+        sum += r;
+        n /= 10;
+    }
 
-	cout << "Sum = " << sum;
+    cout << "Sum = " << sum;
 }
 
 void ex2() {
-	int a, b, UCLL;
+    int a, b, UCLL;
 
-	cout << "Enter a ";
-	cin >> a;
-	cout << "Enter b ";
-	cin >> b;
+    cout << "Enter a ";
+    cin >> a;
+    cout << "Enter b ";
+    cin >> b;
 
-	if ( a==0 && b==0 ) {
-		cout << "không có ước chung lớn nhất" << endl;
-	} else if ( a > b ) {
-			UCLL = a - b;
-	} else {
-			UCLL = b - a;
-	}
+    if ( a==0 && b==0 ) {
+        cout << "không có ước chung lớn nhất" << endl;
+    } else if ( a > b ) {
+            UCLL = a - b;
+    } else {
+            UCLL = b - a;
+    }
 
-	cout << "UCLL = " << UCLL << endl;
+    cout << "UCLL = " << UCLL << endl;
 
 }
 
 void ex3() {
-	int a, b, A = 0, B = 0, UCLL, BCNN;
+    int a, b, A = 0, B = 0, UCLL, BCNN;
 
-	cout << "Enter a ";
-	cin >> a;
-	A = a;
-	cout << "Enter b ";
-	cin >> b;
-	B = b;
+    cout << "Enter a ";
+    cin >> a;
+    A = a;
+    cout << "Enter b ";
+    cin >> b;
+    B = b;
 
-	if ( a==0 && b==0 ) {
-		cout << "không có bội chung nhỏ nhất" << endl;
-	} else {
-		while ( a != b ) {
-			if ( a > b ) {
-					a = a - b;
-			} else {
-					b = b - a;
-			}
-		}
-		UCLL = a;
-	}
+    if ( a==0 && b==0 ) {
+        cout << "không có bội chung nhỏ nhất" << endl;
+    } else {
+        while ( a != b ) {
+            if ( a > b ) {
+                    a = a - b;
+            } else {
+                    b = b - a;
+            }
+        }
+        UCLL = a;
+    }
 
-	if ( UCLL != 0) {
-		BCNN = (A*B)/UCLL;
-		cout << "BCNN = " << BCNN << endl;
-	}
+    if ( UCLL != 0) {
+        BCNN = (A*B)/UCLL;
+        cout << "BCNN = " << BCNN << endl;
+    }
 }
 
 void ex4() {
-	int n;
-	cout << "Enter n = ";
+    int n;
+    cout << "Enter n = ";
 
-	cin >> n;
+    cin >> n;
 
-	if(n < 2){
-			cout << "không phải số nguyên tố" << endl;
-	}
+    if(n < 2){
+            cout << "không phải số nguyên tố" << endl;
+    }
 
-	int count = 0;
-	for ( int i = 2; i <= sqrt(n); i++) {
-			if( n % i == 0 ) {
-					count++;
-			}
-	}
-	if ( count == 0 ) {
-			cout <<"số nguyên tố" << endl;
-	} else {
-			cout <<"Không phải số nguyên tố" << endl;
-	}
+    int count = 0;
+    for ( int i = 2; i <= sqrt(n); i++) {
+            if( n % i == 0 ) {
+                    count++;
+            }
+    }
+    if ( count == 0 ) {
+            cout <<"số nguyên tố" << endl;
+    } else {
+            cout <<"Không phải số nguyên tố" << endl;
+    }
 }
 
 int main() {
 
-	cout <<   "_____________"          << endl;
-	cout <<   "< Yo! dudes >"          << endl;
-	cout <<   "-------------"          << endl;
-	cout <<   "  |  ^__^"              << endl;
-	cout <<   "   - (**)|_______  #"   << endl;
-	cout <<   "     (__)|       )/"    << endl;
-	cout <<   "         ||----w |"     << endl;
-	cout <<   "         ||     ||"     << endl;
+    cout <<   "_____________"          << endl;
+    cout <<   "< Yo! dudes >"          << endl;
+    cout <<   "-------------"          << endl;
+    cout <<   "  |  ^__^"              << endl;
+    cout <<   "   - (**)|_______  #"   << endl;
+    cout <<   "     (__)|       )/"    << endl;
+    cout <<   "         ||----w |"     << endl;
+    cout <<   "         ||     ||"     << endl;
 
-	// cout << "\n\n Exercise 1" << endl;
-	// ex1();
+    // cout << "\n\n Exercise 1" << endl;
+    // ex1();
 
-	// cout << "\n\n Exercise 2" << endl;
-	// ex2();
+    // cout << "\n\n Exercise 2" << endl;
+    // ex2();
 
-	// cout << "\n\n Exercise 3" << endl;
-	// ex3();
+    // cout << "\n\n Exercise 3" << endl;
+    // ex3();
 
-	cout << "\n\n Exercise 4" << endl;
-	ex4();
+    cout << "\n\n Exercise 4" << endl;
+    ex4();
 
-	return 0;
+    return 0;
 }
