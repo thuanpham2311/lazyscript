@@ -40,9 +40,11 @@ void ex2() {
 
     cout << "Enter a ";
     cin >> a;
+    a = abs(a);
     cout << "Enter b ";
     cin >> b;
-
+    b = abs(b)
+    // Cach 2: min(a,b) for giam min = 1 a,b % i == 0 => ok
     if ( a==0 && b==0 ) {
         cout << "không có ước chung lớn nhất" << endl;
     } else {
@@ -65,9 +67,11 @@ void ex3() {
 
     cout << "Enter a ";
     cin >> a;
+    a = abs(a);
     A = a;
     cout << "Enter b ";
     cin >> b;
+    b = abs(b)
     B = b;
 
     if ( a==0 && b==0 ) {
