@@ -36,7 +36,7 @@ void ex1() {
 }
 
 void ex2() {
-    int a, b, UCLL;
+    int a, b, UCLN;
 
     cout << "Enter a ";
     cin >> a;
@@ -45,18 +45,23 @@ void ex2() {
 
     if ( a==0 && b==0 ) {
         cout << "không có ước chung lớn nhất" << endl;
-    } else if ( a > b ) {
-            UCLL = a - b;
     } else {
-            UCLL = b - a;
+        white (a != b) {
+             if ( a > b ) {
+                UCLN = a - b;
+            } else {
+                UCLN = b - a;
+            }
+        }
+        UCLN = b;
     }
-
-    cout << "UCLL = " << UCLL << endl;
+     
+    cout << "UCLN = " << UCLN << endl;
 
 }
 
 void ex3() {
-    int a, b, A = 0, B = 0, UCLL, BCNN;
+    int a, b, A = 0, B = 0, UCLN, BCNN;
 
     cout << "Enter a ";
     cin >> a;
@@ -70,16 +75,16 @@ void ex3() {
     } else {
         while ( a != b ) {
             if ( a > b ) {
-                    a = a - b;
+                    a -= b;
             } else {
-                    b = b - a;
+                    b -= a;
             }
         }
-        UCLL = a;
+        UCLN = a;
     }
 
-    if ( UCLL != 0) {
-        BCNN = (A*B)/UCLL;
+    if ( UCLN != 0) {
+        BCNN = (A*B)/UCLN;.
         cout << "BCNN = " << BCNN << endl;
     }
 }
@@ -95,6 +100,7 @@ void ex4() {
     }
 
     int count = 0;
+    // For (int i = 2; i <= n/2) #way2
     for ( int i = 2; i <= sqrt(n); i++) {
             if( n % i == 0 ) {
                     count++;
