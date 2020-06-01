@@ -43,12 +43,12 @@ void ex2() {
     a = abs(a);
     cout << "Enter b ";
     cin >> b;
-    b = abs(b)
+    b = abs(b);
     // Cach 2: min(a,b) for giam min = 1 a,b % i == 0 => ok
     if ( a==0 && b==0 ) {
         cout << "không có ước chung lớn nhất" << endl;
     } else {
-        white (a != b) {
+        while (a != b) {
              if ( a > b ) {
                 UCLN = a - b;
             } else {
@@ -71,7 +71,7 @@ void ex3() {
     A = a;
     cout << "Enter b ";
     cin >> b;
-    b = abs(b)
+    b = abs(b);
     B = b;
 
     if ( a==0 && b==0 ) {
@@ -88,7 +88,7 @@ void ex3() {
     }
 
     if ( UCLN != 0) {
-        BCNN = (A*B)/UCLN;.
+        BCNN = (A*B)/UCLN;
         cout << "BCNN = " << BCNN << endl;
     }
 }
@@ -104,12 +104,12 @@ void ex4() {
     }
 
     int count = 0;
-    // For (int i = 2; i <= n/2) #way2
     for ( int i = 2; i <= sqrt(n); i++) {
             if( n % i == 0 ) {
                     count++;
             }
     }
+
     if ( count == 0 ) {
             cout <<"số nguyên tố" << endl;
     } else {
