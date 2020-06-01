@@ -29,6 +29,8 @@ int main() {
     cout << "Enter n = ";
     cin >> n;
 
+    // nguyen duong n dung do while kiem tra n > 0
+
     int r = 0;
     while (n > 0) {
         r = n % 10;
