@@ -4,7 +4,7 @@
 **/
 // README:
 // # See the latest update at:
-// https://github.com/nicholaspham2311/lazyscript/blob/master/baiTap1THNMLT.cpp
+// https://github.com/thuanpham2311/lazyscript/blob/master/baiTap1THNMLT.cpp
 //
 //
 // NOTE:

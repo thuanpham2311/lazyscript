@@ -1,6 +1,6 @@
 // NOTE:
 // # See the latest update at:
-// https://github.com/nicholaspham2311/lazyscript/blob/master/phamTanThuanDH51902283_nhapMonLapTrinh_week4.cpp
+// https://github.com/thuanpham2311/lazyscript/blob/master/phamTanThuanDH51902283_nhapMonLapTrinh_week4.cpp
 //
 // 1. Viết chương trình nhập vào số nguyên n. Tính tổng các ký số của n. VD: n = 12345 =&gt; tổng
 // các ký số = 1+2+3+4+5 = 15
