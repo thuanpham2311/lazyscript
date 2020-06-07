@@ -1,6 +1,6 @@
 // README:
 // # See the latest update at:
-// https://github.com/thuanpham2311/lazyscript/blob/master/phamTanThuanDH51902283_nhapMonLapTrinh_week5.cpp
+// https://github.com/thuanpham2311/lazyscript/blob/master/nhapMonLapTrinh/phamTanThuanDH51902283_nhapMonLapTrinh_week5.cpp
 // NOTE:
 // 1. Tính biểu thức :
 // S= 1/1! + 1/2! + 1/3! + ... 1/n!

@@ -1,6 +1,6 @@
 // README:
 // # See the latest update at:
-// https://github.com/thuanpham2311/lazyscript/blob/master/phamTanThuanDH51902283_nhapMonLapTrinh_week6.cpp
+// https://github.com/thuanpham2311/lazyscript/blob/master/nhapMonLapTrinh/phamTanThuanDH51902283_nhapMonLapTrinh_week6.cpp
 // NOTE:
 // 1. Nhập vào chiều cao của hình tam giác và xuất :
 // a. Hình tam giác đặc

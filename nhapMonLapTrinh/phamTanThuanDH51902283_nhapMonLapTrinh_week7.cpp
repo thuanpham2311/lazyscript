@@ -4,7 +4,7 @@
 **/
 // README:
 // # See the latest update at:
-// https://github.com/thuanpham2311/lazyscript/blob/master/week7nhapMonLapTrinh.cpp
+// https://github.com/thuanpham2311/lazyscript/blob/master/nhapMonLapTrinh/phamTanThuanDH51902283_nhapMonLapTrinh_week7.cpp
 //
 // NOTE:
 // 1. Viết hàm tính n!
