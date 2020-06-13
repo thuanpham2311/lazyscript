@@ -1,0 +1,86 @@
+
+https://dev.to/sobolevn/using-better-clis-6o8 | Using better CLIs - DEV Community 👩‍💻👨‍💻
+
+https://dev.to/chrisachard/music-to-listen-to-while-coding-3pn1 | Music to Listen to While Coding - DEV Community 👩‍💻👨‍💻
+https://dev.to/omerxx/vim-from-foe-to-friend-in-9-minutes-2np0 | Vim: from foe to friend in 9 minutes - DEV Community 👩‍💻👨‍💻
+https://dev.to/highflyer910/my-favorite-chrome-extensions-for-web-development-and-design-3gjm | My Favorite Chrome Extensions for web development and design - DEV Community 👩‍💻👨‍💻
+https://dev.to/steffenpedersen/why-most-developers-fear-css-3h99 | Why Most Developers Fear CSS - DEV Community 👩‍💻👨‍💻
+https://dev.to/maxwell_dev/takes-notes-on-everything-3io | Takes Notes on Everything - DEV Community 👩‍💻👨‍💻
+https://dev.to/_patrickgod/3-healthy-habits-for-programmers-1dce | 3 Healthy Habits for Programmers - DEV Community 👩‍💻👨‍💻
+https://dev.to/dvddpl/what-makes-a-10x-developer--1k0f | What makes a 10x Developer? - DEV Community 👩‍💻👨‍💻
+
+https://dev.to/fullstack_to/websites-i-frequently-use-1elj | Websites I frequently use - DEV
+https://dev.to/laurieontech/a-primer-on-seo-49n1 | A Primer on SEO - DEV
+https://dev.to/ilonacodes/top-5-soft-skills-for-software-engineer-4dn2 | Top 5 Soft Skills for Software Engineer - DEV
+https://dev.to/boneskull/pro-tips-for-devs-working-at-home-3b63 | PRO TIPS for devs working at home - DEV
+https://dev.to/simulacr4m/5-projects-to-do-when-you-re-offline-3d6m | 5 Projects To Do When You're Offline - DEV
+https://dev.to/devmount/chromium-developer-tools-can-do-that-3ebe | https://dev.to/devmount/chromium-developer-tools-can-do-that-3ebe
+https://dev.to/restoreddev/writing-beautiful-code-10p6 | Writing Beautiful Code - DEV
+https://dev.to/mpermar/how-to-create-effective-pull-requests-2m8e | How to create effective Pull Requests - DEV
+https://dev.to/steffenpedersen/stay-healthy-as-a-developer-526c | Stay Healthy as a Developer - DEV
+https://dev.to/httpspauline/6-new-habits-i-m-building-to-level-up-as-a-junior-developer-1n24 | 6 new habits I’m building to level up as a junior developer - DEV
+https://dev.to/jacobherrington/50-things-i-wish-i-d-known-at-my-first-developer-job-part-2-31b5 | 50 Things I Wish I'd Known at My First Developer Job (Part 2) - DEV
+https://dev.to/helloiamarra/5-mistakes-i-made-when-i-started-learning-programming-mkf | 5 Mistakes I Made When I Started Learning Programming - DEV
+https://dev.to/mohanarpit/5-tips-for-beginners-to-learn-better-stay-motivated-1gha | 5 tips for beginners to learn better & stay motivated - DEV
+https://dev.to/drewtownchi/7-ways-to-clear-your-head-when-facing-a-programming-problem-2pp4 | 7 Ways to Clear Your Head When Facing a Programming Problem - DEV
+https://dev.to/netguru/howto-my-terminal-shell-setup-hyper-js-zsh-starship-2j2k | HowTo: My Terminal & Shell setup - Hyper.js + ZSH + starship ☄🔥 - DEV
+https://dev.to/yashints/how-do-i-keep-up-with-frontend-world-2e3h | How do I keep up with frontend world - DEV
+https://dev.to/pluralsight/how-i-got-my-website-to-load-in-1-second-27lo | How I Got My Website to Load in 1 Second - DEV
+https://dev.to/pavlosisaris/the-14-habits-of-highly-effective-developers-part-2-2io0 | The 14 habits of highly effective developers (Part 2) - DEV
+https://dev.to/gypsydave5/the-unix-way-or-why-you-actually-want-to-use-vim-3n8p | The Unix way... or why you actually want to use Vim - DEV
+https://dev.to/lssweatherhead/9-tips-and-tricks-for-chrome-dev-tools-149c | 9 Tips and Tricks for Chrome Dev Tools - DEV
+
+https://dev.to/aspittel/my-terminal-setup-iterm2--zsh--30lm | My Terminal Setup: iTerm2 + Zsh 🔥 - DEV
+https://dev.to/paulasantamaria/6-ways-minimalism-can-help-you-write-clean-code-45kp | 6 ways minimalism can help you write clean code - DEV
+https://dev.to/antjanus/my-favorite-linux-tools-12be | My Favorite Linux Tools - DEV
+https://dev.to/jameesy/the-ultimate-guide-to-finding-a-job-in-tech-521l | The Ultimate Guide to Finding a Job in Tech - DEV
+https://dev.to/sahilrajput/tools-for-developers-gkp | Tools for Developers - DEV
+https://dev.to/simoroshka/full-time-side-projects-learning-and-staying-sane-328l | Full-time, side projects, learning, and staying sane - DEV
+https://dev.to/lpasqualis/the-5-problem-solving-skills-of-great-software-developers-4e6 | The 5 Problem-Solving Skills of Great Software Developers - DEV
+https://dev.to/xowap/10-rules-to-code-like-nasa-applied-to-interpreted-languages-40dd | 10 rules to code like NASA (applied to interpreted languages) - DEV
+https://dev.to/mjuraj/i-made-over-1-000-code-reviews-this-is-what-i-learned-4e9e | I made over 1,000 code reviews - this is what I learned - DEV
+https://dev.to/allanmacgregor/vim-is-the-perfect-ide-e80 | Vim Is The Perfect IDE - DEV
+https://dev.to/teamxenox/philosophy-of-a-good-developer-30c2 | Philosophy of a Good Developer - DEV
+https://dev.to/bgadrian/16-free-toolsservices-that-any-developer-should-use-4e7e | 16 free tools & services that any developer should use - DEV
+https://dev.to/lauragift21/the-art-of-googling-4c04 | The Art of Googling - DEV
+https://dev.to/geshan/you-can-do-it-in-sql-stop-writing-extra-code-for-it-lok | You Can Do it in SQL, Stop Writing Extra Code for it - DEV
+https://dev.to/myonlinestore/how-to-not-be-a-dinosaur-3d55 | How to not be a dinosaur. - DEV
+https://dev.to/jacobherrington/50-things-i-wish-i-d-known-at-my-first-developer-job-part-1-2dm4 | 50 Things I Wish I'd Known at My First Developer Job (Part 1) - DEV
+https://dev.to/ben/write-clean-code-and-avoid-the-distractions-of-emerging-technology-3emj | Write clean code and avoid the distractions of emerging technology - DEV
+https://dev.to/aspittel/what-productivity-looks-like-to-me-5dk5 | What Productivity Looks Like to Me - DEV
+https://dev.to/nickytonline/my-mac-setup-2m05 | My Mac Setup - DEV
+https://dev.to/tharunshiv/21-best-productivity-tools-suggested-by-the-dev-to-community-om7 | 21 best productivity tools suggested by the Dev.to community - DEV
+https://dev.to/paulasantamaria/clean-code-why-bother-21lo | Clean code... Why bother? - DEV
+https://dev.to/stephsmithio/writing-is-thinking-learning-to-write-with-confidence-1ijh | Writing is Thinking: Learning to Write with Confidence - DEV
+https://dev.to/iamsaeeddev/5-damn-easiest-soft-skills-needed-to-become-a-10x-yes-10x-software-engineer-4ll7 | ✨ 5 damn easiest soft skills💡 needed to become a 10X🔥...Yes...10X🔥 Software Engineer ✔️ - DEV
+https://dev.to/dotnet/the-secret-art-of-debugging-1lfi | The Secret Art of Debugging - DEV
+
+https://dev.to/bosepchuk/29-must-read-programming-books-2n45 | 29 Must Read Books For Programmers - DEV
+https://dev.to/sobolevn/i-am-a-mediocre-developer--30hn | I am a mediocre developer - DEV
+https://dev.to/sayanide/best-github-repos-for-web-developers-9id | Best GitHub Repos for Web Developers - DEV
+https://dev.to/fayazara/this-free-tools-for-developers-are-45p3 | These free tools for developers are 🔥🔥🔥 - DEV
+https://dev.to/jfelx/40-high-quality-free-resources-for-web-development-10o3 | 40+ High Quality Free Resources for Web Development - DEV
+https://dev.to/teamxenox/best-open-source-tools-for-developers--300f | Best Open Source Tools For Developers 🛠 - DEV
+https://dev.to/akshay35c/productive-tools-for-web-development-4bd5 | Productive Tools🚀 For Web Development😎 - DEV
+https://dev.to/liyasthomas/i-created-postwoman-an-online-open-source-api-request-builder-41md | Postwoman 👽 - API request builder: An open sourced, free, fast & beautiful alternative to Postman - DEV
+https://dev.to/brpaz/my-linux-development-environment-of-2018-ch7 | My Linux Development Environment of 2018 - DEV
+https://dev.to/javinpaul/10-simple-linux-tips-which-save-50-of-my-time-in-the-command-line-4moo | 10 simple Linux tips which save 50% of my time in the command line - DEV
+https://dev.to/prototyp/optimizing-images-for-the-web-an-in-depth-guide-4j7d | Optimizing images for the web - an in-depth guide - DEV
+https://dev.to/_darrenburns/8-productivity-tips-for-github-44kn | 8 Productivity Tips for GitHub - DEV
+https://dev.to/rinaarts/how-to-ruin-your-career-in-8-easy-steps-71 | How to Ruin Your Career in 8 Easy Steps - DEV
+https://dev.to/maxwell_dev/how-to-take-notes-on-everything-32fc | How To Take Notes on Everything - DEV
+https://dev.to/christopherkade/18-devtools-for-productivity-5ia | 18 DevTools for productivity 🚀 - DEV
+https://dev.to/zaiste/15-git-commands-you-may-not-know-4a8j | 15 Git Commands You May Not Know - DEV
+https://dev.to/duomly/18-websites-where-you-can-find-a-remote-job-3a91 | 18 websites, where you can find a remote job - DEV
+https://dev.to/perigk/30-tips-for-software-engineering-careers-after-30-years-of-life-5ddf | 30 Tips for Software Engineering Careers, After 30 Years of Life - DEV
+https://dev.to/pavlosisaris/how-to-transition-from-junior-to-mid-level-developer-part-1-4gig | The 14 habits of highly effective developers (Part 1) - DEV
+https://dev.to/_darrenburns/10-tools-to-power-up-your-command-line-4id4 | 10 Tools To Power Up Your Command Line - DEV
+https://dev.to/paco_ita/train-your-css-skills-with-online-games-4ah3 | 💪 Train your CSS skills with online games 👾 - DEV
+https://dev.to/emmabostian/top-3-tools-for-boosting-your-productivity-1lh | Top 3 Tools For Boosting Your Productivity - DEV
+https://dev.to/pustelto/tools-i-use-for-front-end-dev-3ekn | Tools I use for front-end dev - DEV
+https://dev.to/craftzdog/how-i-built-a-markdown-editor-earning-1300-mo-profit-inkdrop-4l6f | How I Built a Markdown Editor Earning $1300/mo Profit — Inkdrop - DEV
+https://dev.to/seattledataguy/7-habits-of-highly-effective-programmers-inspired-by-an-ex-google-techlead-humor-4b4k | 7 Habits Of Highly Effective Programmers - Inspired by an ex-Google TechLead #humor - DEV
+https://dev.to/fayazara/tools-i-am-surprised-more-people-aren-t-using-2bn2 | I am surprised more people are not using these tools!! - DEV
+https://dev.to/mateuszjarzyna/linux-s-commands-and-tricks-i-m-using-in-my-daily-job-as-a-developer-4cle | Linux's commands and tricks I'm using in my daily job as a developer - DEV
+https://dev.to/vintharas/exploring-vim-4k1i | Exploring Vim - DEV
+https://dev.to/t/career | Career - DEV
