@@ -16,6 +16,6 @@ int main() {
 	countSoNguyenToNhoHon(n);
 	sumSoNguyenToNhoHon(n);
 	multiplySoNguyenToNhoHon(n);
-	system("pause");
+	// system("pause");
 	return 0;
 }
