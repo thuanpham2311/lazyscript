@@ -76,7 +76,6 @@ void countArr(int in[], int n) {
 }
 
 int main() {
-
     cout <<   "_____________"          << endl;
     cout <<   "< Yo! dudes >"          << endl;
     cout <<   "-------------"          << endl;
