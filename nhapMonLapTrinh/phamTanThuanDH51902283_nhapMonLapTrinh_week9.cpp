@@ -80,6 +80,7 @@ int main() {
 
     cout << "Ban muon nhap bao nhieu so: ";
     cin >> n;
+
     arrIn(in, n);
 
     cout << "cac gia tri cua mang la: \n";
