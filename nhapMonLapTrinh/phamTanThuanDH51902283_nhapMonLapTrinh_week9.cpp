@@ -2,7 +2,6 @@
 // # See the latest update at:
 // https://github.com/thuanpham2311/lazyscript/blob/master/nhapMonLapTrinh/phamTanThuanDH51902283_nhapMonLapTrinh_week9.cpp
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 void arrIn(int in[], int n) {
