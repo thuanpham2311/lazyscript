@@ -76,6 +76,16 @@ void countArr(int in[], int n) {
 }
 
 int main() {
+
+    cout <<   "_____________"          << endl;
+    cout <<   "< Yo! dudes >"          << endl;
+    cout <<   "-------------"          << endl;
+    cout <<   "  |  ^__^"              << endl;
+    cout <<   "   - (**)|_______  #"   << endl;
+    cout <<   "     (__)|       )/"    << endl;
+    cout <<   "         ||----w |"     << endl;
+    cout <<   "         ||     ||"     << endl;
+
     int in[100], n;
 
     cout << "Ban muon nhap bao nhieu so: ";
