@@ -4,7 +4,9 @@
 #include <iostream>
 using namespace std;
 
-void arrIn(int in[], int n) {
+void arrIn(int in[], int &n) {
+    cout << "Ban muon nhap bao nhieu so: ";
+    cin >> n;
     cout << "nhap so tai day: \n";
     for (int i = 0; i < n; i++) {
         cout << "arr[" << i << "] = ";
@@ -12,9 +14,9 @@ void arrIn(int in[], int n) {
     }
 }
 
-void arrOut(int in[], int m) {
+void arrOut(int in[], int n) {
     cout << "cac gia tri cua mang la: \n";
-    for (int i = 0; i < m; i++) {
+    for (int i = 0; i < n; i++) {
         cout << "arr[" << i << "] = " << in[i];
     }
 }
@@ -29,6 +31,7 @@ void sumArr(int in[], int n) {
 }
 
 void whereX(int in[], int n) {
+    // dont need, use return if use int func
     bool F = false;
     int x;
 
@@ -52,7 +55,7 @@ void whereX(int in[], int n) {
 void maxArr(int in[], int n) {
     int MAX;
 
-    for (int i = 0; i < n - i; i++) {
+    for (int i = 0; i < n - 1; i++) {
         if (in[i] > in[i+1]) {
             MAX = in[i];
         } else {
@@ -87,16 +90,10 @@ int main() {
 
     int in[100], n;
 
-    cout << "Ban muon nhap bao nhieu so: ";
-    cin >> n;
 
     arrIn(in, n);
+    arrOut(in, n);
 
-    cout << "cac gia tri cua mang la: \n";
-    for (int i = 0; i < n; i++) {
-        cout << "arr[" << i << "] = " << in[i]
-            << endl;
-    }
 
     sumArr(in, n);
 
