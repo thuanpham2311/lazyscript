@@ -4,6 +4,6 @@
 
 ## Q & A
 
-**Who you are?**
+**Who am I?**
 
 - I'm noob, just that
