@@ -13,5 +13,5 @@
 # https://crontab.guru/
 
 ###### Sample crontab ######
-*/10 * * * * fish ~/.config/fish/functions/noteSyns.fish
-*/59 * * * * fish ~/.config/fish/funcitons/crontab59m.fish
+*/10 * * * * fish /home/master/.config/fish/functions/noteSyns.fish
+*/59 * * * * fish /home/master/.config/fish/functions/crontab59m.fish
