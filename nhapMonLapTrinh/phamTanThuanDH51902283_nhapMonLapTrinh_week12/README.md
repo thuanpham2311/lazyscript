@@ -2,9 +2,9 @@
 
 ## ref
 
-### Author: Thuan Pham
+**Author**: Thuan Pham
 
-### See newest update at:
+**See newest update at:**
 
 [https://github.com/thuanpham2311/lazyscript/tree/master/nhapMonLapTrinh/phamTanThuanDH51902283_nhapMonLapTrinh_week12](https://github.com/thuanpham2311/lazyscript/tree/master/nhapMonLapTrinh/phamTanThuanDH51902283_nhapMonLapTrinh_week12)
 
