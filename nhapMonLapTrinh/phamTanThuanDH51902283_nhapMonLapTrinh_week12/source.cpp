@@ -16,9 +16,9 @@ void xuatSach(SACH sach) {
     cout << endl;
 
     cout << "Ten sach: " << sach.ten << endl;
-    cout << "Ten ma: " << sach.ma << endl;
-    cout << "Ten gia: " << sach.gia << endl;
-    cout << "Ten nam: " << sach.nam << endl;
+    cout << "Ma: " << sach.ma << endl;
+    cout << "Gia: " << sach.gia << endl;
+    cout << "Nam: " << sach.nam << endl;
 
     cout << endl;
 }
