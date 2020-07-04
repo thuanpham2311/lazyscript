@@ -1,4 +1,4 @@
-# bai tap tuan 12
+# bai tap tuan 12 nhap mon lap trinh
 
 ## ref
 
