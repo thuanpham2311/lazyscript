@@ -10,3 +10,10 @@ struct SACH {
     int gia;
     int nam;
 };
+
+void nhapSach(SACH &sach);
+void xuatSach(SACH sach);
+void nhapDanhSachSach(SACH a[], int n);
+void xuatDSSach2020(SACH a[], int n);
+void xuatDSSachMaT(SACH a[], int n);
+void xuatSachMaTH001(SACH a[], int n);
