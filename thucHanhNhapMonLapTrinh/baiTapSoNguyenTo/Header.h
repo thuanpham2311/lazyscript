@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-int testSoNguyenTo(int);
+bool testSoNguyenTo(int);
 void listSoNguyenToNhoHon(int);
 void countSoNguyenToNhoHon(int);
 void sumSoNguyenToNhoHon(int);

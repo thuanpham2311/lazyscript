@@ -6,7 +6,7 @@ int main() {
 	cin >> n;
 
 	int result = testSoNguyenTo(n);
-	if (result == 2) {
+	if (result == true) {
 		cout << n << " la so nguyen to" << endl;
 	} else {
 		cout << n << " khong la so nguyen to" << endl;
