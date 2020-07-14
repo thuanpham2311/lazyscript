@@ -20,11 +20,22 @@ bool kiemTraSoChinhPhuong(int n) {
 }
 
 void xuatSoChinhPhuongNhoNhatTrongMang(int a[100], int n) {
+    int count = 0;
+    int min;
     cout << "Cac so chinh phuong nho nhat trong mang la: " << endl;
-    for (int i = 0; i < n; i++) {
-        if (kiemTraSoChinhPhuong(a[i]) == true) {
-            cout << "a[" << i << "] = ";
-            cout << a[i] << endl;
+    for (int i = 1; i < n; i++) {
+        if (kiemTraSoChinhPhuong(a[i]) == true && count == 0) {
+            min = a[i];
+            count++;
         }
     }
+
+    for (int i = 1; i < n; i++) {
+        if (kiemTraSoChinhPhuong(a[i]) == true && a[i] < min) {
+            min = a[i];
+        }
+    }
+
+    cout << min << endl;
+
 }
