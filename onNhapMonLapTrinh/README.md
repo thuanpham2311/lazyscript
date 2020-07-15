@@ -2,7 +2,7 @@
 
 # Q & A
 
-- [x] kiểm tra số nguyên tố 
+- [x] kiểm tra số nguyên tố
 - [x] kiểm tra số hoàng thiện
 - [x] kiểm tra số số chính phương
 - [x] xuất số chính phương nhỏ nhất có trong mảng @Nguyễn Giang Quế Trân
