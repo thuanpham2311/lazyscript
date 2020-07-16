@@ -1,4 +1,8 @@
-# ôn nhập môn lập trình
+#ôn nhập môn lập trình
+
+## BUG logs:
+
+    - [x] queTran (không nhận số chính phương = 1)
 
 # Q & A
 
