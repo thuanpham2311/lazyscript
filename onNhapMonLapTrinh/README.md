@@ -1,4 +1,4 @@
-#ôn nhập môn lập trình
+# ôn nhập môn lập trình
 
 ## BUG logs:
 
