@@ -2,7 +2,7 @@
 
 ## BUG logs:
 
-    - [x] queTran (không nhận số chính phương = 1)
+- [x] queTran (không nhận số chính phương = 1)
 
 # Q & A
 
