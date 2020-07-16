@@ -10,12 +10,18 @@ void nhapMang(int a[100], int &n) {
         cin >> a[i];
     }
 }
+
 bool kiemTraSoChinhPhuong(int n) {
-    for (int i = 1; i < n; i++) {
-        if (i*i == n) {
-            return true;
+    if (n == 1) {
+        return true;
+    } else {
+        for (int i = 2; i < n; i++) {
+            if (i*i == n) {
+                return true;
+            }
         }
     }
+
     return false;
 }
 
