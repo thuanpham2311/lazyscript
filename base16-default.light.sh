@@ -77,7 +77,7 @@ if which "$DCONF" > /dev/null 2>&1; then
 fi
 
 # Fallback for Gnome 2 and early Gnome 3
-[[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool
+[[ -z "$GCONFTOOL" ]] && GCONFTOOL=gconftool-2
 [[ -z "$BASE_KEY" ]] && BASE_KEY=/apps/gnome-terminal/profiles
 
 PROFILE_KEY="$BASE_KEY/$PROFILE_SLUG"
@@ -90,7 +90,7 @@ gset() {
     "$GCONFTOOL" --set --type "$type" "$PROFILE_KEY/$key" -- "$val"
 }
 
-# Because gconftool doesn't have "append"
+# Because gconftool-2 doesn't have "append"
 glist_append() {
     local type="$1"; shift
     local key="$1"; shift
