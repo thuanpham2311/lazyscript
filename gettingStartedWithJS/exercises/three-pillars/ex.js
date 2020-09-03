@@ -12,7 +12,7 @@ class Bookshelf {
     }
 
     printFavoriteBooks() {
-        console.log(`Favorite Books: ${Sting(this.favoriteBooks.length)}`);
+        console.log(`Favorite Books: ${String(this.favoriteBooks.length)}`);
         for (let bookName of this.favoriteBooks) {
             console.log(bookName);
         }
@@ -20,13 +20,13 @@ class Bookshelf {
 }
 
 
-function loadBooks( /* .. */ ) {
+function loadBooks(bookshelf) {
 	// TODO: call fakeAjax( .. );
     fakeAjax(BOOK_API, function onBook(bookNames) {
         for (let bookName of bookNames) {
-            Bookshelf.addFavoriteBook(bookName);
+            bookshelf.addFavoriteBook(bookName);
         }
-        Bookshelf.printFavoriteBooks();
+        bookshelf.printFavoriteBooks();
     })
 }
 
