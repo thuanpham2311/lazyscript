@@ -4,6 +4,10 @@
 
 - [x] queTran (không nhận số chính phương = 1)
 
+## Note
+
+- I use Crontab + auto commit script (used API whatthecommit.com), so my commit just auto sync, => sorry I'm so lazy to commit :D
+
 # Q & A
 
 - [x] kiểm tra số nguyên tố
