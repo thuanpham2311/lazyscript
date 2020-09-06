@@ -63,7 +63,9 @@ void ex2() {
 }
 
 void ex3() {
-    int a, b, A = 0, B = 0, UCLN, BCNN;
+    int a, b;
+    int UCLN, BCNN;
+    int A = 0, B = 0;
 
     cout << "Enter a ";
     cin >> a;
