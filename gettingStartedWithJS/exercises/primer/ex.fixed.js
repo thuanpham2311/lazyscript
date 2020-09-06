@@ -1,14 +1,14 @@
 function addFavoriteBook(bookName) {
-	if (!bookName.includes("Great")) {
-		favoriteBooks.push(bookName);
-	}
+  if (!bookName.includes("Great")) {
+    favoriteBooks.push(bookName);
+  }
 }
 
 function printFavoriteBooks() {
-	console.log(`Favorite Books: ${favoriteBooks.length}`);
-	for (let bookName of favoriteBooks) {
-		console.log(bookName);
-	}
+  console.log(`Favorite Books: ${favoriteBooks.length}`);
+  for (let bookName of favoriteBooks) {
+    console.log(bookName);
+  }
 }
 
 var favoriteBooks = [];
