@@ -2,6 +2,8 @@
 
 **Somethings somethings**
 
+**All my commit message is BS, don't waste your time read that\***
+
 ## Q & A
 
 **Who am I?**
