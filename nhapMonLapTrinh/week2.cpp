@@ -1,7 +1,7 @@
 /**
  *     Author: Nicholas Pham (Phạm Tấn Thuận | DH51902283)
  *     Created: Fri 24 Apr 2020 11:40:16 AM +07
-**/
+ **/
 // README:
 // # See the latest update at:
 // https://github.com/thuanpham2311/lazyscript/blob/master/nhapMonLapTrinh/phamTanThuanDH51902283_nhapMonLapTrinh_week2.cpp
@@ -46,7 +46,8 @@
 #include <cmath>
 using namespace std;
 
-void ex1() {
+void ex1()
+{
     int a, b;
 
     cout << "Enter a, b" << endl;
@@ -61,27 +62,31 @@ void ex1() {
     cout << "a / b = " << a / b << endl;
 }
 
-void ex2() {
+void ex2()
+{
     char productName[100];
     int amount, price, money, tax;
 
     cout << "Enter product name: ";
     cin >> productName;
     cout << productName << endl;
-    cout << "how many?" << "\n = ";
+    cout << "how many?"
+        << "\n = ";
     cin >> amount;
     cout << productName << endl;
-    cout << "how much? ($)" "\n = ";
+    cout << "how much? ($)"
+        "\n = ";
     cin >> price;
 
-    money = amount * price; 
+    money = amount * price;
     cout << "money = " << money << "$" << endl;
 
     tax = 0.1 * money;
     cout << "tax (10%) = " << tax << "$" << endl;
 }
 
-void ex3() {
+void ex3()
+{
     float math, phy, chem;
 
     cout << "Enter your score math, phy and chem" << endl;
@@ -92,15 +97,16 @@ void ex3() {
     cout << "chem = ";
     cin >> chem;
 
-    cout << "adv = " << ( math + phy + chem ) / 3 << endl;
+    cout << "adv = " << (math + phy + chem) / 3 << endl;
 }
 
-void ex4() {
-    int R, PI, area, circumference;
+void ex4()
+{
+    int R, area, circumference;
     // C = 2*pi*r
     // A = pi*r**2
 
-    PI = 3.14159265359;
+    double PI = 3.14159265359;
 
     cout << "Radius = ";
     cin >> R;
@@ -112,23 +118,25 @@ void ex4() {
     cout << "Circumference  is " << circumference << endl;
 }
 
-void ex5() {
+void ex5()
+{
     int carNumber, num_1, num_2, num_3, num_4, result;
 
     cout << "Enter your car number (just 4 number) \n \t Car number = ";
     cin >> carNumber;
 
-    num_1 = carNumber    %  10;
-    num_2 = carNumber/10  %  10;
-    num_3 = carNumber/100  %  10;
-    num_4 = carNumber/1000  %  10;
+    num_1 = carNumber        % 10;
+    num_2 = carNumber / 10   % 10;
+    num_3 = carNumber / 100  % 10;
+    num_4 = carNumber / 1000 % 10;
 
     result = num_1 + num_2 + num_3 + num_4;
 
     cout << "Sum each your number is " << result << endl;
 }
 
-void ex6() {
+void ex6()
+{
     int a, b, x;
     // ax + b = 0 => x = -b / a
 
@@ -138,16 +146,20 @@ void ex6() {
     cout << "b = ";
     cin >> b;
 
-    if (a == 0) {
+    if (a == 0)
+    {
         cout << "Don't enter number 0 dude" << endl;
         cout << "Run this program again" << endl;
-    }else {
+    }
+    else
+    {
         x = -b / a;
         cout << "x is " << x << endl;
     }
 }
 
-void ex7() {
+void ex7()
+{
     int a, b, c;
     float x_1, x_2;
     // https://en.wikipedia.org/wiki/Quadratic_equation
@@ -160,28 +172,31 @@ void ex7() {
     cout << "c = ";
     cin >> c;
 
-    if (a == 0) {
+    if (a == 0)
+    {
         cout << "Don't enter number 0 dude" << endl;
         cout << "Run this program again" << endl;
-    }else {
-        x_1 = ( -b + sqrt( b*b - 4*a*c ) ) / ( 2*a );
-        x_2 = ( -b - sqrt( b*b - 4*a*c ) ) / ( 2*a );
+    }
+    else
+    {
+        x_1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+        x_2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
         cout << "x_1 is " << x_1 << endl;
         cout << "x_2 is " << x_2 << endl;
     }
 }
 
+int main()
+{
 
-int main() {
-
-    cout <<   "_____________"          << endl;
-    cout <<   "< Yo! dudes >"          << endl;
-    cout <<   "-------------"          << endl;
-    cout <<   "  |  ^__^"              << endl;
-    cout <<   "   - (oo)|_______  #"   << endl;
-    cout <<   "     (__)|       )/"    << endl;
-    cout <<   "         ||----w |"     << endl;
-    cout <<   "         ||     ||"     << endl;
+    cout << "_____________" << endl;
+    cout << "< Yo! dudes >" << endl;
+    cout << "-------------" << endl;
+    cout << "  |  ^__^" << endl;
+    cout << "   - (oo)|_______  #" << endl;
+    cout << "     (__)|       )/" << endl;
+    cout << "         ||----w |" << endl;
+    cout << "         ||     ||" << endl;
 
     cout << "\n\n Exercise 1" << endl;
     ex1();
