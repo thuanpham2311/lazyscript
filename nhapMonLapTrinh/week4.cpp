@@ -57,7 +57,7 @@ void ex2() {
         }
         UCLN = b;
     }
-     
+
     cout << "UCLN = " << UCLN << endl;
 
 }
