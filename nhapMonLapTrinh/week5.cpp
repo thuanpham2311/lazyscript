@@ -35,7 +35,7 @@ void ex1() {
 
 void ex2() {
     int n, r;
-    
+
     cout << "Reverse number \"n\"" << endl;
     cout << "Enter n = ";
     cin >> n;
