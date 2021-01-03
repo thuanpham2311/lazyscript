@@ -14,7 +14,6 @@
 using namespace std;
 
 int main() {
-
   cout << "_____________" << endl;
   cout << "< Yo! dudes >" << endl;
   cout << "-------------" << endl;
