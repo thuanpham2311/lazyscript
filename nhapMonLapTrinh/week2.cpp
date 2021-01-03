@@ -159,7 +159,6 @@ void ex7() {
   cin >> b;
   cout << "c = ";
   cin >> c;
-
   if (a == 0) {
     cout << "Don't enter number 0 dude" << endl;
     cout << "Run this program again" << endl;
@@ -201,6 +200,5 @@ int main() {
 
   cout << "\n\n Exercise 7" << endl;
   ex7();
-
   return 0;
 }
