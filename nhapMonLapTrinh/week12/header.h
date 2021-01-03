@@ -1,14 +1,14 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 using namespace std;
 
 #define ll long long
 
 struct SACH {
-    char ten[50];
-    char ma[10];
-    int gia;
-    int nam;
+  char ten[50];
+  char ma[10];
+  int gia;
+  int nam;
 };
 
 void nhapSach(SACH &sach);
