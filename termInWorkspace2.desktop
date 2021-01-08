@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=term in work space 2
+Exec=xdotool key "alt+2" && xdotool key "ctrl+space" && xdotool key "ctrl+c"
+Terminal=true
