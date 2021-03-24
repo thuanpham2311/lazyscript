@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2021-03-24T06:07:37.321Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="r6BifMHBi6A4pqAi8x-g" version="14.5.1" type="github">
+  <diagram id="CkprRSFuk41D_LHBjCzT" name="Page-1">
+    <mxGraphModel dx="868" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wNllJqXrdKDcOjeQRKj2-2" target="wNllJqXrdKDcOjeQRKj2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wNllJqXrdKDcOjeQRKj2-2" target="wNllJqXrdKDcOjeQRKj2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="wNllJqXrdKDcOjeQRKj2-2" target="wNllJqXrdKDcOjeQRKj2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wNllJqXrdKDcOjeQRKj2-2" target="wNllJqXrdKDcOjeQRKj2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-2" value="sinh viên&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-4" value="&lt;u&gt;mã sinh viên&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-6" value="tên nhân viên" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-8" value="địa chỉ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNllJqXrdKDcOjeQRKj2-2" target="wNllJqXrdKDcOjeQRKj2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNllJqXrdKDcOjeQRKj2-11" value="ngày sinh" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
